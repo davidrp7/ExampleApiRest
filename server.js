@@ -6,7 +6,7 @@ const app = express()
 const hostname = '127.0.0.1';
 const PORT = process.env.PORT || 5000
 
-let users = ['oscar', 'juan', 'marcos', 'julieta'];
+let users = ['oscar', 'juan', 'marcos', 'julieta', 'davidr'];
 let books = [
     {titulo: 'El señor de los anillos', autor: 'J.R.R. Tolkien'},
     {titulo: "Cancion de hielo y fuego", autor: 'George RR Martin'}
